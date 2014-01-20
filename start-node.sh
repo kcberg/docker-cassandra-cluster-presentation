@@ -1,6 +1,6 @@
 #!/bin/bash
 
-projectdir="/home/kberg/docker-cassandra-cluster"
+projectdir="`pwd`"
 nodename=$1
 nodeip=$2
 seeds=$3
